@@ -15,7 +15,7 @@ makedepends=('stack')
 source=("${_name}-${pkgver}.tar.gz::https://github.com/ndmitchell/${_name}/archive/refs/tags/v${pkgver}.tar.gz")
 sha256sums=('70082004f954acdf63a5c76ccd6ee229295c5667c89d6085bc8c79756b238f2f')
 
-_stack_resolver=lts
+_stack_resolver=lts-21.6
 
 build() {
   cd "$srcdir/$_name-$pkgver"
